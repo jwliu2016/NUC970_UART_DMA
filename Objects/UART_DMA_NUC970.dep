@@ -1,0 +1,38 @@
+Dependencies for Project 'UART_DMA', Target 'NUC970': (DO NOT MODIFY !)
+F (.\main.c)(0x5A609798)(--c99 -c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I .\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="525"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5A58A5CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
+I (.\Driver\Include\nuc970.h)(0x5A323062)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (.\Driver\Include\sys.h)(0x5A323062)
+I (.\Driver\Include\uart.h)(0x5A6091FE)
+F (.\Driver\Source\standalone.c)(0x5A32306A)(--c99 -c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I .\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="525"-o .\objects\standalone.o --omf_browse .\objects\standalone.crf --depend .\objects\standalone.d)
+F (.\Driver\Source\sys.c)(0x5A32306A)(--c99 -c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I .\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="525"-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (.\Driver\Include\nuc970.h)(0x5A323062)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (.\Driver\Include\sys.h)(0x5A323062)
+F (.\Driver\Source\sys_timer.c)(0x5A32306A)(--c99 -c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I .\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="525"-o .\objects\sys_timer.o --omf_browse .\objects\sys_timer.crf --depend .\objects\sys_timer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
+I (.\Driver\Include\nuc970.h)(0x5A323062)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (.\Driver\Include\sys.h)(0x5A323062)
+F (.\Driver\Source\sys_uart.c)(0x5A32306A)(--c99 -c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I .\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="525"-o .\objects\sys_uart.o --omf_browse .\objects\sys_uart.crf --depend .\objects\sys_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5A58A5CE)
+I (.\Driver\Include\nuc970.h)(0x5A323062)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (.\Driver\Include\sys.h)(0x5A323062)
+F (.\Driver\Source\system_nuc970.c)(0x5A32306A)(--c99 -c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I .\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="525"-o .\objects\system_nuc970.o --omf_browse .\objects\system_nuc970.crf --depend .\objects\system_nuc970.d)
+I (.\Driver\Include\nuc970.h)(0x5A323062)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (.\Driver\Include\sys.h)(0x5A323062)
+F (.\Driver\Source\uart.c)(0x5A6090BA)(--c99 -c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I .\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="525"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5A58A5CE)
+I (.\Driver\Include\nuc970.h)(0x5A323062)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (.\Driver\Include\sys.h)(0x5A323062)
+I (.\Driver\Include\uart.h)(0x5A6091FE)
+F (.\Driver\Source\startup_NUC970.s)(0x5A32306A)(--cpu ARM926EJ-S -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba--pd "__UVISION_VERSION SETA 525"--list .\listings\startup_nuc970.lst --xref -o .\objects\startup_nuc970.o --depend .\objects\startup_nuc970.d)
+F (.\Driver\Source\sys_nuc970.s)(0x5A32306A)(--cpu ARM926EJ-S -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba--pd "__UVISION_VERSION SETA 525"--list .\listings\sys_nuc970.lst --xref -o .\objects\sys_nuc970.o --depend .\objects\sys_nuc970.d)

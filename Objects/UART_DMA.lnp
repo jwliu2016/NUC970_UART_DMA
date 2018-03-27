@@ -1,0 +1,14 @@
+--cpu ARM926EJ-S
+".\objects\main.o"
+".\objects\standalone.o"
+".\objects\sys.o"
+".\objects\sys_timer.o"
+".\objects\sys_uart.o"
+".\objects\system_nuc970.o"
+".\objects\uart.o"
+".\objects\startup_nuc970.o"
+".\objects\sys_nuc970.o"
+--strict --scatter ".\Scipt\nuc970.sct"
+--entry 0 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\UART_DMA.map" -o .\Objects\UART_DMA.axf

@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Oleksandr Kishchuk, Tiras12, LIC=AK1X7-EHSHX-XAKDC-7P2VL-QF68A-8PID5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.25.0.0
+Dialog DLL:      DARMATS9.DLL V1.22.0.0
+Target DLL:      Segger\JLTAgdi.dll V1.61.0.0
+Dialog DLL:      TARMATS9.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+E:\Programming\MyProject\NUC970_UART_DMA\UART_DMA.uvproj
+Project File Date:  01/17/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'NUC970'
+compiling standalone.c...
+compiling sys.c...
+compiling main.c...
+main.c(25): warning:  #550-D: variable "retval"  was set but never used
+  	int  retval;
+main.c: 1 warning, 0 errors
+compiling sys_timer.c...
+compiling sys_uart.c...
+compiling system_nuc970.c...
+assembling startup_NUC970.s...
+assembling sys_nuc970.s...
+compiling uart.c...
+linking...
+Program Size: Code=15276 RO-data=48 RW-data=672 ZI-data=148376  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin ".\Objects\UART_DMA.axf" --output ".\Objects\UART_DMA.bin"
+After Build - User command #2: fromelf --text -c ".\Objects\UART_DMA.axf" --output ".\Objects\UART_DMA.txt"
+".\Objects\UART_DMA.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
